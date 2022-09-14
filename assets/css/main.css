@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    width: 30%;
+    background-color: gold;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxstyle{
+    display: none;
+    box-shadow: 3px 3px 15px  5px  gray;
+    border-radius: 8px;
+}
+.secondclass{
+    display: flex;
+}
+.hero_text{
+color: black;
+text-align: center;
+font-weight: 400;
+}
+.btn_box{
+    display: flex;
+}
+.box-search{
+    box-shadow: 1px 1px 15px  3px  gray;
+    border-radius: 8px;
+}
+.input-search{
+    height: 15px;
+    border-radius: 8px;
+    border: none;
+    box-shadow:  1px 1px 15px  2px  gray;
+    margin: 2px;
+    font-size: 15px;
+}
+.btn-style{
+border-radius: 8px;
+padding: 1px;
+font-size: 14px;
+text-decoration: none;
+background-color: green;
+color: white;
+border: none;
+}
+.btn-style:hover{
+background-color: rgb(6, 184, 6);
+transition: 1s;
+}
+.searchtable{
+    display: none;
+}
+.searchtablestyle{
+    display: block;
+}
+.boxactive{
+display: flex;
+}
+.containerElemnt{
+    display: none;
+}
